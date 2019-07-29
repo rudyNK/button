@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Change the Background Color Dynamically with JavaScript</title>
+<script>   
+    // change Background color
+     function changeBodyBg(color){
+        document.body.style.background = color;
+    }
+
+    // Change Text color
+    function myFunction() {
+  document.getElementById("green").style.color = "green";
+}
+
+    // Change button color
+    function changeHeadingBg(color){
+        document.getElementById("btn-color").style.background = color;
+    }
+
+</script>
+</head>
+<body>
+    
+    <div>
+        <button type="button" onclick="changeBodyBg('red');">change Background color</button>
+        <button type="button" id="green" onclick="myFunction('green');">Change Text color to green</button>
+        <button type="button" id="btn-color" onclick="changeHeadingBg('purple');">Change button color</button>
+    </div>
+
+</body>
+</html> 
